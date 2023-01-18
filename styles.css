@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    transition: all ease-in 1000ms;
 }
 
 .shape__container {
@@ -17,10 +18,12 @@
     width: 200px;
     background-color: black;
     margin: 3rem;
+    position: absolute;
 }
 
 #cube {
     background-image: linear-gradient(to top, black 0%, gray 50%, black 100%);
+    top: 0rem;
 }
 
 #triangle {
@@ -29,6 +32,8 @@
     color: black;
     border: 100px solid white;
     border-bottom-color: red;
+    left: 15rem;
+    top: 15rem;
 }
 
 #triangle p {
@@ -41,4 +46,6 @@
     background-image: linear-gradient(to top, darkgreen 0%, rgb(63, 209, 63) 50%, darkgreen 100%);
     flex-direction: column;
     border-radius: 100px;
+    left: 30rem;
+    top: 7rem;
 }
