@@ -1,3 +1,4 @@
+const transform = document.getElementById("transform");
 const cube = document.getElementById("cube");
 const triangle = document.getElementById("triangle");
 const circle = document.getElementById("circle");
@@ -12,5 +13,4 @@ function moveShape() {
   boolean ? (boolean = false) : (boolean = true);
   console.log(boolean);
 }
-
-cube.addEventListener("click", moveShape);
+transform.addEventListener("click", moveShape);
