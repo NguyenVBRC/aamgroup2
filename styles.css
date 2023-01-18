@@ -1,0 +1,44 @@
+* {
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.shape__container {
+    display: flex;
+}
+
+.all__shapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 3rem;
+}
+
+#cube {
+    background-image: linear-gradient(to top, black 0%, gray 50%, black 100%);
+}
+
+#triangle {
+    height: 0;
+    width: 0;
+    color: black;
+    border: 100px solid white;
+    border-bottom-color: red;
+}
+
+#triangle p {
+    position: relative;
+    top: 5rem;
+    white-space: nowrap;
+}
+
+#circle {
+    background-image: linear-gradient(to top, darkgreen 0%, rgb(63, 209, 63) 50%, darkgreen 100%);
+    flex-direction: column;
+    border-radius: 100px;
+}
